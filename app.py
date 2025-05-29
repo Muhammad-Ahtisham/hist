@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import sqlite3
 import os
-
 DB_FILE = "recommendation.db"
 st.set_page_config(page_title="Medical Tool Recommendation", layout="centered")
 st.title("🔬 Medical Tool Recommendation System")
